@@ -10,6 +10,11 @@ const siteLanguageList = [
     released: true,
   },
   {
+    code: 'nl',
+    name: 'Dutch (Netherlands)',
+    released: true,
+  },
+  {
     code: 'es-es',
     name: 'Español (España)',
     released: true,
