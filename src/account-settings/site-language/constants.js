@@ -5,7 +5,7 @@ const siteLanguageList = [
     released: true,
   },  
   {
-    code: 'nl-nl',
+    code: 'nl',
     name: 'Dutch',
     released: true,
   }
