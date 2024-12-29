@@ -26,8 +26,9 @@ const messages = defineMessages({
       newDiscussionPost {New discussion posts}
       newQuestionPost {New question posts}
       contentReported {Reported content}
-      courseUpdate {Course updates}
+      courseUpdates {Course updates}
       oraStaffNotification {ORA new submissions}
+      oraGradeAssigned {Essay assignment grade received}
       other {{text}}
     }`,
     description: 'Display text for Notification Types',
