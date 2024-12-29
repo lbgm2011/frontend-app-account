@@ -655,15 +655,6 @@ class AccountSettingsPage extends React.Component {
             {...editableFieldProps}
           />
           )}
-          <EditableSelectField
-            name="language_proficiencies"
-            type="select"
-            value={this.props.formValues.language_proficiencies}
-            options={languageProficiencyOptions}
-            label={this.props.intl.formatMessage(messages['account.settings.field.language.proficiencies'])}
-            emptyLabel={this.props.intl.formatMessage(messages['account.settings.field.language.proficiencies.empty'])}
-            {...editableFieldProps}
-          />
         </div>
 
         <div className="account-section pt-3 mb-5" id="site-preferences" ref={this.navLinkRefs['#site-preferences']}>
