@@ -5,15 +5,10 @@ const siteLanguageList = [
     released: true,
   },  
   {
-    code: 'nl-nl',
+    code: 'nl',
     name: 'Dutch',
     released: true,
-  },
-  {
-    code: 'es-es',
-    name: 'Español (España)',
-    released: true,
-  },
+  }
 ];
 
 export default siteLanguageList;
