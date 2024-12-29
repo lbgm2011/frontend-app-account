@@ -23,9 +23,7 @@ const JumpNav = ({
         items={[
           'basic-information',
           'profile-information',
-          'social-media',
           'site-preferences',
-          'linked-accounts',
           'delete-account',
         ]}
         className="list-unstyled"
@@ -42,18 +40,8 @@ const JumpNav = ({
           </NavHashLink>
         </li>
         <li>
-          <NavHashLink to="#social-media">
-            {intl.formatMessage(messages['account.settings.section.social.media'])}
-          </NavHashLink>
-        </li>
-        <li>
           <NavHashLink to="#site-preferences">
             {intl.formatMessage(messages['account.settings.section.site.preferences'])}
-          </NavHashLink>
-        </li>
-        <li>
-          <NavHashLink to="#linked-accounts">
-            {intl.formatMessage(messages['account.settings.section.linked.accounts'])}
           </NavHashLink>
         </li>
         {getConfig().ENABLE_ACCOUNT_DELETION
